@@ -1,0 +1,17 @@
+/** Start contact Form Styles **/
+.form-container {
+    width: 75%;
+    margin: 25px auto 0px;
+    background-color: white;
+    color: red;
+    
+}
+/** End Contact Form Styles **/
+
+/** Start Google Map Styles **/
+.map-container {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    }
+/** End Google Map Styles **/
