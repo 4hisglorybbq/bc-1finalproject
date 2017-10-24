@@ -1,13 +1,17 @@
 body {
   margin: 0px;
   background-color: black;
-  
-  
+  background-image: url('../images/realflame.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+ 
 }
 /**Start Nav Styles **/
 .main-nav {
   background: black;
-  background-image: url('../images/realflame.jpg');
+  
+  
   
 }
 .logo{
@@ -45,11 +49,12 @@ body {
     text-decoration: none;
 }
 .nav-link:hover{
-  color: red;
+  color: white;
   text-decoration: underline;
   
 }
 /** End Nav Styles **/
+
 /** Start Hero Styles **/
 .hero-background {
   background-image: url('../images/For HIS Glory BBQ RIg.jpg');
@@ -72,7 +77,7 @@ body {
   
 /** End Hero Styles **/
 
-/** Start Column Styles **/
+/** Start Image Containers **/
 
 .column-container {
   padding: 15px;
@@ -98,9 +103,9 @@ body {
   font-size: small; 
   font-weight: bold;
   background-image: url('../images/realflame.jpg');
-  
-  
+  background-color: rgba(0, 0, 0, .5);
   }
+  
   
 .column-image:hover {
 -webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
@@ -116,10 +121,10 @@ box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
   transition: all 0.7s ease;
   }
   
-  
-  
-/** End Column Styles **
+/** End Image Container **/  
 
+
+  
 /** Start Footer Styles **/
 .main-footer:after {
   content:"";
@@ -140,6 +145,7 @@ box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
   color: red;
   background-color: black;
   background-image: url('../images/realflame.jpg');
+ 
 }
 .container {
   height: 150px;
@@ -200,6 +206,6 @@ box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
 .clear-both {
   clear: both;
 }
-/** Start Block Styles **/
 
-/** End Block Styles **/
+
+/** End Footer Sections **/

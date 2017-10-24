@@ -1,14 +1,5 @@
-h1 {
-    color: white;
-}
-/** Start Column Styles **/
 
-/*.about-container:after {*/
-/*  content:"";*/
-/*  display: block;*/
-/*   clear: both;*/
-/*  padding:15px;*/
-/*  }*/
+/** Start Container Styles **/
 
 .about-container{
   display: flex;
@@ -36,17 +27,7 @@ h1 {
   width: 100%;
   height: 230px;
 }
-  /*.self{*/
-  /*float: left;*/
-  /*clear: right; */
-  /*}*/
-
-  /*.Bio {*/
-  /*float:right;*/
-  /*clear: left;*/
-  /*}*/
-  
-  /** End Column Styles **
+   /** End Column Styles **
   
   /** Start Info Section Sytles **/
   .info.container:after {
